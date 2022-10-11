@@ -8,7 +8,7 @@
     <q-item-section class="q-pl-xl ">
       <div class="text-subtitle1 text-uppercase text-teal-10" >Volunteering made easy</div>
       <div class="text-h1 text-weight-bolder text-indigo-10" >Welcome to Coalesce</div>
-      <div class="text-h5 text-weight-medium grey-14">A 100% open-source volunteer management platform... in development</div>
+      <div class="text-h5 text-weight-medium text-grey-14">A 100% open-source volunteer management platform... in development</div>
 
       <div class="row q-gutter-xl q-mt-md">
         <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Register as volunteer " color="accent" padding="md xl"></q-btn>
