@@ -1,0 +1,40 @@
+name: run-tests
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    container: python:3.8
+
+    services:
+      db:
+        image: postgres:latest
+        env:
+          POSTGRES_DB: test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: password
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run flake8 to check our code follows the python style guide
+        run: flake8
+
+      - name: Run tests
+        run: ./manage.py test
+        env:
+          DJANGO_SECRET_KEY: local
+          DATABASE_URL: postgresql://postgres:password@db/test
