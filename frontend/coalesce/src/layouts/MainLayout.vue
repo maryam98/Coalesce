@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" >
     <!--<q-header>-->
     <q-toolbar class="shadow-2">
       <img src="../assets/coalesce-logo.png">
@@ -32,8 +32,8 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-toolbar>
-      <img src="../assets/footer.png"/>
+    <q-toolbar  style="background-color: #2a4264; ">
+      <q-img src="../assets/footer.png" />
     </q-toolbar>
   </q-layout>
 </template>
