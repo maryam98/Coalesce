@@ -7,7 +7,7 @@
 
     <q-item-section class="q-pl-xl ">
       <div class="text-subtitle1 text-uppercase text-teal-10" >Volunteering made easy</div>
-      <div class="text-h1 text-weight-bolder text-indigo-10" style="color: #2a4264; " >Welcome to Coalesce</div>
+      <div class="text-h1 text-weight-bolder " style="color: #2a4264; " >Welcome to Coalesce</div>
       <div class="text-h5 text-weight-medium text-grey-14">A 100% open-source volunteer management platform... in development</div>
 
       <div class="row q-gutter-xl q-mt-md">

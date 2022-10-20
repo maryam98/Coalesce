@@ -2,7 +2,8 @@
   <q-layout view="lHh Lpr lFf" >
 
     <!--<q-header>-->
-    <q-toolbar class="shadow-2">
+    <q-toolbar class="shadow-2" >
+
       <img src="../assets/coalesce-logo.png">
       <div view="lHh Lpr lFf">
         <q-tabs shrink>
@@ -28,6 +29,7 @@
           </q-route-tab>
         </q-tabs>
       </div>
+
     </q-toolbar>
   <!--</q-header>-->
     <q-page-container>
