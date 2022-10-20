@@ -1,8 +1,9 @@
 <template>
-  <q-layout view="lHh Lpr lFf" >
+  <q-layout view="lHh Lpr lFf " >
 
     <!--<q-header>-->
-    <q-toolbar class="shadow-2" >
+      <div class="q-px-xl ">
+    <q-toolbar class="  " >
 
       <img src="../assets/coalesce-logo.png">
       <div view="lHh Lpr lFf">
@@ -31,7 +32,8 @@
       </div>
 
     </q-toolbar>
-  <!--</q-header>-->
+    </div>
+ <!-- </q-header>-->
     <q-page-container>
       <router-view />
     </q-page-container>
