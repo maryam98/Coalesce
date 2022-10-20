@@ -110,7 +110,7 @@ module.exports = function (/* ctx */) {
        'QPage','QPageContainer',
        'QHeader','QToolbar',
        'QToolbarTitle','QAvatar',
-       'QTabs','QRouteTab','QFooter'],
+       'QTabs','QRouteTab','QFooter','QImg'],
       // directives: [],
 
       // Quasar plugins
