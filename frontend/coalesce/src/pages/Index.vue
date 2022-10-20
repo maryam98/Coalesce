@@ -21,7 +21,7 @@
   </q-item>
     <!-- Below the fold, how it works information -->
     <div class="col-12 page-banner ">
-      <h2 class="text-weight-bolder text-h2">How it works</h2>
+      <h2 class=" text-h4">How it works</h2>
       <div class="row q-gutter-lg">
         <q-card class="col-3">
           <q-card-section>
@@ -57,13 +57,13 @@
     </div>
     <!-- About Coalesce -->
     <div style="background-color:#eaf3ff">
-      <h2>About Coalesce</h2>
+      <h2 class="text-h4 ">About Coalesce</h2>
       <p>Coalesce lowers the time spent recruiting and managing volunteers by centralizing recruiting and data management in one web platform.</p>
       <p>We improve non-profit operational scalability by engaging more significant numbers of volunteers who deliver more to the overall mission.</p>
     </div>
     <!-- ***************************Who is using Coalesce?*************************************-->
     <div>
-      <h2>Who is using Coalesce?</h2>
+      <h2 class=" text-h4">Who is using Coalesce?</h2>
       <div class="row q-gutter-lg">
         <q-card class="col-2">
           <q-card-section>
@@ -94,7 +94,7 @@
     <!--****************************************************-->
     <!-- Connect with us -->
     <div class="col-10 page-banner">
-      <h2>Connect and help us build this service</h2>
+      <h2 class=" text-h4">Connect with us</h2>
       <div class="row q-gutter-lg">
         <q-card class="col-2">
           <q-card-section>
