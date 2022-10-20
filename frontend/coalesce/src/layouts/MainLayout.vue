@@ -32,6 +32,9 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <q-toolbar>
+      <img src="../assets/footer.png"/>
+    </q-toolbar>
   </q-layout>
 </template>
 
