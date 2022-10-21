@@ -3,9 +3,9 @@
   <q-page  class="q-pt-none ">
     <!-- Above the fold, main landing page content -->
 
-  <q-item style="background-color:#fef0e5" class="q-px-xl " >
+  <q-item style="background-color:#fef0e5" class=" row q-px-xl " >
 
-    <q-item-section class="q-pl-xl ">
+    <q-item-section class="q-pl-xl order-first">
       <div class="text-subtitle1 text-uppercase text-teal-10" >Volunteering made easy</div>
       <div class="text-h1 text-weight-bolder " style="color: #2a4264; " >Welcome to Coalesce</div>
       <div class="text-h5 text-weight-medium text-grey-14">A 100% open-source volunteer management platform... in development</div>
@@ -14,14 +14,16 @@
         <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Register as volunteer " color="accent" padding="md xl"></q-btn>
         <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Register as an Organisation" color="accent" padding="md xl"></q-btn>
       </div>
-    </q-item-section>
-    <q-item-section side >
+
+      </q-item-section>
+      <q-item-section >
       <img src="../assets/book.png">
     </q-item-section>
+
   </q-item>
     <!-- Below the fold, how it works information -->
-    <div class="col-12 page-banner q-px-xl">
-      <h2 class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">How it works</h2>
+    <div class="col-12 page-banner q-px-xl q-my-xl">
+      <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">How it works</q-item>
       <div class="row q-gutter-lg">
         <q-card class="col-3">
           <q-card-section>
@@ -56,15 +58,17 @@
       </div>
     </div>
     <!-- About Coalesce -->
-    <div style="background-color:#eaf3ff" class="q-pa-xl ">
-      <h2 class="text-weight-bolder text-h4 " style="color: #2a4264; ">About Coalesce</h2>
-      <p>Coalesce lowers the time spent recruiting and managing volunteers by centralizing recruiting and data management in one web platform.</p>
+    <div style="background-color:#eaf3ff" class="q-pa-xl q-my-xl">
+      <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">About Coalesce</q-item>
+       <p>Coalesce lowers the time spent recruiting and managing volunteers by centralizing recruiting and data management in one web platform.</p>
       <p>We improve non-profit operational scalability by engaging more significant numbers of volunteers who deliver more to the overall mission.</p>
+      <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Read more " color="accent" padding="md xl"></q-btn>
+
     </div>
     <!-- ***************************Who is using Coalesce?*************************************-->
-    <div class="q-px-xl ">
-      <h2 class="text-weight-bolder text-h4" style="color: #2a4264; ">Who is using Coalesce?</h2>
-      <div class="row q-gutter-lg">
+    <div class="q-px-xl q-my-xl ">
+      <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">Who is using Coalesce?</q-item>
+        <div class="row q-gutter-lg">
         <q-card class="col-2">
           <q-card-section>
             <q-icon name="face" size="xl" color="accent" />
@@ -93,8 +97,9 @@
     </div>
     <!--****************************************************-->
     <!-- Connect with us -->
-    <div class="col-10 page-banner q-px-xl ">
-      <h2 class="text-weight-bolder text-h4" style="color: #2a4264; ">Connect with us</h2>
+    <div class="col-10 page-banner q-px-xl q-my-xl ">
+      <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">Connect with us</q-item>
+
       <div class="row q-gutter-lg">
         <q-card class="col-2">
           <q-card-section>
