@@ -3,24 +3,27 @@
   <q-page  class="q-pt-none ">
     <!-- Above the fold, main landing page content -->
 
-  <q-item style="background-color:#fef0e5" class=" row q-px-xl " >
-
-    <q-item-section class="q-pl-xl order-first">
+  <div style="background-color:#fef0e5" class="q-pl-xl" >
+<div class="row q-pt-lg justify-center">
+    <div class="col-12 col-md-4 ">
       <div class="text-subtitle1 text-uppercase text-teal-10" >Volunteering made easy</div>
       <div class="text-h1 text-weight-bolder " style="color: #2a4264; " >Welcome to Coalesce</div>
       <div class="text-h5 text-weight-medium text-grey-14">A 100% open-source volunteer management platform... in development</div>
 
-      <div class="row q-gutter-xl q-mt-md">
-        <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Register as volunteer " color="accent" padding="md xl"></q-btn>
-        <q-btn unelevated no-caps class="submit-button q-mt-xl" style="" to="/organisers/create" text-color="white" label="Register as an Organisation" color="accent" padding="md xl"></q-btn>
-      </div>
+      <q-btn unelevated no-caps class="submit-button q-mt-xl q-mr-md"  to="/organisers/create" text-color="white" label="Register as volunteer " color="accent" padding="md xl"></q-btn>
+       <q-btn unelevated no-caps class="submit-button q-mt-xl"  to="/organisers/create" text-color="white" label="Register as an Organisation" color="accent" padding="md xl"></q-btn>
 
-      </q-item-section>
-      <q-item-section >
+    </div>
+      <div class="col-12 col-md-6  q-pb-xl " >
       <img src="../assets/book.png">
-    </q-item-section>
+      </div>
+</div>
+    <!-- <div class="row q-pt-sm">
+      <div class="col-12 col-md-4">
+          </div>
+    </div> -->
+</div>
 
-  </q-item>
     <!-- Below the fold, how it works information -->
     <div class="col-12 page-banner q-px-xl q-my-xl">
       <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">How it works</q-item>

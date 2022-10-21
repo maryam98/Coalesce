@@ -37,6 +37,19 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <div class="row">
+        <q-card square bordered class="q-pa-lg shadow-3" style="width:360px;">
+          <q-card-section>
+            <q-form class="q-gutter-lg">
+              <q-input square clearable v-model="email" type="text" label="Name" />
+              <q-input square clearable v-model="email" type="email" label="Email" />
+            </q-form>
+          </q-card-section>
+          <q-card-actions class="q-px-md q-py-lg">
+            <q-btn unelevated color="primary" size="lg" class="full-width" label="Subscribe" />
+          </q-card-actions>
+        </q-card>
+      </div>
     <q-toolbar  style="background-color: #2a4264; ">
       <q-img src="../assets/footer.png" />
     </q-toolbar>
