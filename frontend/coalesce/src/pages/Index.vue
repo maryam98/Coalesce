@@ -14,7 +14,7 @@
        <q-btn unelevated no-caps class="submit-button q-mt-xl"  to="/organisers/create" text-color="white" label="Register as an Organisation" color="accent" padding="md xl"></q-btn>
 
     </div>
-      <div class="col-12 col-md-6  q-pb-xl " >
+      <div class="col-12 col-md-7  q-pb-xl  " >
       <img src="../assets/book.png">
       </div>
 </div>
