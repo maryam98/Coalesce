@@ -44,8 +44,8 @@
 
     <q-form class="q-gutter-lg " style=" width: 400px;">
 
-  <q-input  v-model="email" type="email" label="Email Address" style=" border:groove; border-color: #F35C3;" />
-  <q-btn   label="Sign up" style="width: 150px;  height: 55px;  background: #F35C36; color: white; "  />
+  <q-input  v-model="email" type="email" label="Email Address" style=" border:groove; border-color:#F35C36; margin-right: 0px;" />
+  <q-btn   label="Sign up" style="width: 150px;  height: 55px;  background: #F35C36; color: white; margin-left: 0px; "  />
 
    </q-form>
 </div>
