@@ -2,8 +2,8 @@
   <q-layout view="lHh Lpr lFf " >
 
     <!--<q-header>-->
-      <div class="q-px-xl ">
-    <q-toolbar class="  " >
+      <div class="q-px-xl " >
+    <q-toolbar  >
 
       <img src="../assets/coalesce-logo.png">
       <div view="lHh Lpr lFf">
@@ -37,19 +37,20 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <div class="row">
-        <q-card square bordered class="q-pa-lg shadow-3" style="width:360px;">
-          <q-card-section>
-            <q-form class="q-gutter-lg">
-              <q-input square clearable v-model="email" type="text" label="Name" />
-              <q-input square clearable v-model="email" type="email" label="Email" />
-            </q-form>
-          </q-card-section>
-          <q-card-actions class="q-px-md q-py-lg">
-            <q-btn unelevated color="primary" size="lg" class="full-width" label="Subscribe" />
-          </q-card-actions>
-        </q-card>
-      </div>
+
+<div  style="background-color: #eeeeee">
+
+ <div class="q-px-xl ">
+
+    <q-form class="q-gutter-lg " style=" width: 400px;">
+
+  <q-input  v-model="email" type="email" label="Email Address" style=" border:groove; border-color: #F35C3;" />
+  <q-btn   label="Sign up" style="width: 150px;  height: 55px;  background: #F35C36; color: white; "  />
+
+   </q-form>
+</div>
+ </div>
+      <!-- newsletter -->
     <q-toolbar  style="background-color: #2a4264; ">
       <q-img src="../assets/footer.png" />
     </q-toolbar>

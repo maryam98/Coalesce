@@ -3,8 +3,8 @@
   <q-page  class="q-pt-none ">
     <!-- Above the fold, main landing page content -->
 
-  <div style="background-color:#fef0e5" class="q-pl-xl" >
-<div class="row q-pt-lg justify-center">
+  <div style="background-color:#fef0e5" >
+<div class="row q-pt-lg justify-center" >
     <div class="col-12 col-md-4 ">
       <div class="text-subtitle1 text-uppercase text-teal-10" >Volunteering made easy</div>
       <div class="text-h1 text-weight-bolder " style="color: #2a4264; " >Welcome to Coalesce</div>
