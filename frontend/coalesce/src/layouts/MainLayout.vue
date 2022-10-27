@@ -38,14 +38,15 @@
       <router-view />
     </q-page-container>
 
-<div  style="background-color: #eeeeee">
+<div  style="background-color: #eeeeee; height: 500px;">
 
- <div class="q-px-xl ">
+ <div style=" position: absolute; ">
 
-    <q-form class="q-gutter-lg " style=" width: 400px;">
-
-  <q-input  v-model="email" type="email" label="Email Address" style=" border:groove; border-color:#F35C36; margin-right: 0px;" />
-  <q-btn   label="Sign up" style="width: 150px;  height: 55px;  background: #F35C36; color: white; margin-left: 0px; "  />
+    <q-form class="q-pl-xl"  style=" width: 400px; overflow:auto; padding-top:300px  ">
+<div class="text-h6">subscribe to receive coalesce News</div>
+  <q-input class="bg-white rounded-borders" v-model="email" type="email" placeholder="Email Address" style=" border:groove; border-color:#F35C36; float: left;
+width: 70%; height: 55px; border-radius: 5px 0px 0px 5px;" />
+  <q-btn   label="Sign up" style="width: 30%;  height: 55px;  background: #F35C36; color: white; float: left;border-radius: 0 5px 5px 0; "  />
 
    </q-form>
 </div>
