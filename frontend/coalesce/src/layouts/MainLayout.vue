@@ -40,15 +40,38 @@
 
 <div  style="background-color: #eeeeee; height: 500px;">
 
- <div style=" position: absolute; ">
+ <div class="row">
 
-    <q-form class="q-pl-xl"  style=" width: 400px; overflow:auto; padding-top:300px  ">
+    <q-form class="q-pl-xl col "  style=" width: 200px; overflow:auto; padding-top:250px;    ">
 <div class="text-h6">subscribe to receive coalesce News</div>
   <q-input class="bg-white rounded-borders" v-model="email" type="email" placeholder="Email Address" style=" border:groove; border-color:#F35C36; float: left;
 width: 70%; height: 55px; border-radius: 5px 0px 0px 5px;" />
   <q-btn   label="Sign up" style="width: 30%;  height: 55px;  background: #F35C36; color: white; float: left;border-radius: 0 5px 5px 0; "  />
-
+<div  class="text-subtitle1 q-pl-xl q-pt-xl"  >Coalesce 2021. All rights reserved </div>
    </q-form>
+<div class="col q-pl-xl" style="padding-top:250px" >
+<h5> Other Links </h5>
+
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Referral Network</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Volunteer</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Monitoring & Reporting</a>
+
+</div>
+<div class="col " style="padding-top:250px">
+  <h5> Get Started </h5>
+  <a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Free Download</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Feature</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Subscribe</a>
+
+</div>
+<div class="col " style="padding-top:300px">
+
+  <a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">About</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Blog</a>
+<a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Vision</a>
+
+</div>
+
 </div>
  </div>
       <!-- newsletter -->
@@ -81,7 +104,7 @@ export default {
     background: $accent;
     border-radius: 8px;
     min-width: 100px;
-    max-width: 100px;
+    max-width: 150px;
     align-self: flex-end;
   }
 </style>

@@ -65,7 +65,7 @@
       <q-item to="/" class=" text-weight-bolder text-h4 "  style="color: #2a4264; ">About Coalesce</q-item>
        <p>Coalesce lowers the time spent recruiting and managing volunteers by centralizing recruiting and data management in one web platform.</p>
       <p>We improve non-profit operational scalability by engaging more significant numbers of volunteers who deliver more to the overall mission.</p>
-      <q-btn type="submit" unelevated class="orange-button" padding="8px 16px" label="Read more" />
+      <q-btn type="submit" unelevated class="orange-button"  label="Read more" />
 
     </div>
     <!-- ***************************Who is using Coalesce?*************************************-->
@@ -157,8 +157,8 @@ export default {
     background: $accent;
     border-radius: 8px;
     min-width: 100px;
-    max-width: 100px;
-    align-self: flex-end;
+    max-width: 150px;
+
   }
 
 </style>
