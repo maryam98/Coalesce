@@ -34,14 +34,23 @@
     </q-toolbar>
     </div>
  <!-- </q-header>-->
-    <q-page-container>
+    <q-page-container >
       <router-view />
     </q-page-container>
+    <div class="my-content q-pb-xl">&nbsp;</div>
+    <div class="my-content">&nbsp;</div>
+    <div class="my-content">&nbsp;</div>
+    <div class="my-content">&nbsp;</div>
+    <div class="my-content">&nbsp;</div>
+    <div class="my-content q-pb-xl">&nbsp;</div>
+     <q-separator ></q-separator>
+<div style="width: 1109px;height: 250px;border-radius: 10px;background: #2A4264; position: absolute;left: 20% ; top:66% ">
 
-<div  style="background-color: #eeeeee; height: 500px;">
+</div>
+<div  style="background-color: #eeeeee;">
 
  <div class="row">
-<div class="q-pl-xl col  " style="padding-top:250px">
+<div class="q-pl-xl col  " style="padding-top:220px">
   <div class="text-h6">subscribe to receive coalesce News</div>
     <q-form   style="overflow:auto; width: 50%;">
 
@@ -49,11 +58,11 @@
 width: 70%; height: 55px; border-radius: 5px 0px 0px 5px;" />
   <q-btn   label="Sign up" style="width: 30%;  height: 55px;  background: #F35C36; color: white; float: left;border-radius: 0 5px 5px 0; "  />
 </q-form>
-<div  class="text-subtitle1 q-pl-xl q-pt-xl"  >Coalesce 2021. All rights reserved </div>
+
 </div>
-<div class="q-pl-xl col  " style="padding-top:250px; ">
+<div class="q-pl-xl col" style="padding-top:250px; ">
   <div class="row">
-<div class="col "   >
+<div class="col"   >
 <h5> Other Links </h5>
 
 <a target="_blank" class="row" href="https://www.federationof.tech/humanitarian-software">Referral Network</a>
@@ -77,6 +86,14 @@ width: 70%; height: 55px; border-radius: 5px 0px 0px 5px;" />
 </div>
 </div></div>
 </div>
+<div class="row">
+<div  class="col text-subtitle1 q-pa-xl "  >Coalesce 2021. All rights reserved </div>
+<div class="col q-py-xl self-end" >
+  <a target="_blank"  href="https://www.federationof.tech/humanitarian-software">Privacy Policy</a> |
+<a target="_blank" href="https://www.federationof.tech/humanitarian-software">Term of use</a>
+</div>
+</div>
+<q-span />
  </div>
       <!-- newsletter -->
     <q-toolbar  style="background-color: #2a4264; ">
