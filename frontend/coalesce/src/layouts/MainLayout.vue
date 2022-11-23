@@ -6,7 +6,7 @@
     <q-toolbar  >
 
       <img src="../assets/coalesce-logo.png">
-      <div view="lHh Lpr lFf">
+      <div >
         <q-tabs shrink>
           <q-route-tab to="/" name="home">Home</q-route-tab>
           <q-tab>
@@ -44,10 +44,11 @@
     <div class="my-content">&nbsp;</div>
     <div class="my-content q-pb-xl">&nbsp;</div>
      <q-separator ></q-separator>
-<div style="width: 1109px;height: 250px;border-radius: 10px;background: #2A4264; position: absolute;left: 20% ; top:66% ">
+
+<div  style="width: 1109px;height: 250px;border-radius: 10px;background: #2A4264;position: absolute;  margin-left:10%;bottom: 22%;">
 
 </div>
-<div  style="background-color: #eeeeee;">
+  <div  style="background-color: #eeeeee;">
 
  <div class="row">
 <div class="q-pl-xl col  " style="padding-top:220px">
