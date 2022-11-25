@@ -51,13 +51,12 @@
   <div  style="background-color: #eeeeee;">
 
  <div class="row">
-<div class="q-pl-xl col  " style="padding-top:220px">
+<div class="q-pl-xl col" style="padding-top:20%">
   <div class="text-h6">subscribe to receive coalesce News</div>
-    <q-form   style="overflow:auto; width: 50%;">
+    <q-form   style=" width: 50%;">
 
-  <q-input class="bg-white rounded-borders" v-model="email" type="email" placeholder="Email Address" style=" border:groove; border-color:#F35C36; float: left;
-width: 70%; height: 55px; border-radius: 5px 0px 0px 5px;" />
-  <q-btn   label="Sign up" style="width: 30%;  height: 55px;  background: #F35C36; color: white; float: left;border-radius: 0 5px 5px 0; "  />
+  <q-input color="white" outlined v-model="email"  label="Email Address"  />
+  <q-btn   label="Sign up" style="width: 30%;  height: 20%;  background: #F35C36; color: white; float: left;border-radius: 0 5px 5px 0; "  />
 </q-form>
 
 </div>
